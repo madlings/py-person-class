@@ -9,7 +9,7 @@ class Person:
 
 def create_person_list(people_data: list[dict]) -> list[Person]:
     instances = [
-    Person(data["name"], data["age"])
+        Person(data["name"], data["age"])
         for data in people_data
     ]
 
